@@ -42,7 +42,6 @@ jobs:
       with:
         context: .
         image: knafil/githubactions-springboot
-        registry: docker.io
         file: ./Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_HUB_USERNAME }}/myownPAT:latest
