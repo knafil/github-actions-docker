@@ -44,7 +44,7 @@ jobs:
         image: knafil/githubactions-springboot
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/myownPAT:latest
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/myownpat:latest
 
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
